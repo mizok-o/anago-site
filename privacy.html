@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Privacy Policy — anago-uploader</h1>
-<p>Last updated: 2026-11-08</p>
+<p>Last updated: 2026-11-14</p>
 <h2>What this app is</h2>
 <p>anago-uploader is a personal automation tool operated by the owner of the
 YouTube channel "anago" (@anago-i5k). It uploads videos to that single
@@ -27,6 +27,35 @@ GitHub Actions Secrets for the owner's private repository) and are used
 exclusively to authenticate uploads.</li>
 <li>Uploaded video files and metadata originate from the owner's own content
 management system.</li>
+</ul>
+<h2>How we use the data</h2>
+<ul>
+<li>The youtube.upload scope is used only to upload videos made from the
+owner's own articles to the owner's own channel. No other Google user data
+is read.</li>
+<li>Use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</li>
+<li>Google user data is not used for advertising, is not sold to data
+brokers or information resellers, is not used to determine credit-worthiness
+or for lending purposes, and is not used to develop, improve, or train
+generalized or non-personalized AI or machine-learning models.</li>
+</ul>
+<h2>Sharing</h2>
+<p>Google user data is not shared with, transferred to, or disclosed to any
+third party.</p>
+<h2>Security</h2>
+<p>Credentials are stored encrypted in GitHub Actions Secrets and are never
+written to logs or source code. All communication with Google APIs uses
+HTTPS (TLS encryption). Access is limited to the owner.</p>
+<h2>Retention and deletion</h2>
+<ul>
+<li>The refresh token is kept only while the app is in use. When the app is
+no longer used, it is deleted from GitHub Actions Secrets and access is
+revoked.</li>
+<li>Temporary video files created during processing are deleted when each
+run finishes.</li>
+<li>To request deletion of any data, contact the address below.</li>
 </ul>
 <h2>Revoking access</h2>
 <p>The owner can revoke the app's access at any time from the Google Account
